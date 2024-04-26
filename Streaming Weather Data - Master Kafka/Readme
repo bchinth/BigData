@@ -1,0 +1,1 @@
+In this project, we established a foundation for working with Apache Kafka, a powerful distributed streaming platform. By setting up Kafka on a Mac environment and developing Python scripts for a producer and consumer, we created a data pipeline that streams weather data for New York City. The data is fetched from the OpenWeatherMap API at regular intervals.
