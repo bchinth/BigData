@@ -1,0 +1,11 @@
+CNN : Trained a CNN with three hidden convolutional layers that use the ReLU activation function. 
+      Used 64 11×11 filters for the first layer, followed by 2×2 max pooling (stride of 2). 
+      The next two convolutional layers are 128 3×3 filters followed by the ReLU activation function. 
+
+      Prior to the softmax layer, theres an average pooling layer that pools across the preceding feature map. Did not use a pre-trained CNN. 
+      Trained model using all of the CIFAR-10 training data, and evaluated  trained system on the CIFAR-10 test data. 
+
+      Displayed the training loss as a function of epochs. 
+
+GAN : The generator network is an essential component of a Generative Adversarial Network (GAN) and is responsible for generating realistic-looking images from random noise.
+      The discriminator architecture consists of a sequential model with several layers:
