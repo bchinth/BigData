@@ -1,0 +1,25 @@
+Key Concept: Vector Embeddings
+
+Legal Document Summarization with Langchain
+Overview:
+This script extracts, processes, and summarizes content from documents (e.g., lease contract) using Langchain and OpenAI embeddings. It efficiently identifies and retrieves key information for faster document review.
+
+Key Features:
+
+PDF Reading: Extracts text from PDF legal documents.
+Text Splitting: Breaks down text into manageable chunks while preserving context.
+Embeddings: Converts text chunks into semantic vectors using OpenAI, enabling smart querying.
+Summarization: Quickly summarizes and highlights critical details from legal documents.
+
+How It Works?
+
+Extract: Read and parse the entire PDF document.
+Process: Split the text into meaningful chunks.
+Embed: Generate embeddings to capture the semantic meaning.
+Query: Search and retrieve relevant sections or summaries based on natural language queries.
+Use Case:
+Ideal for summarizing legal contracts and extracting essential information quickly and accurately.
+
+Benefits: 
+
+Efficiency: Reduces time spent on manual document review.Accuracy: Captures critical information even when worded differently.
